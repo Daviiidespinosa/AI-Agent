@@ -1,0 +1,39 @@
+📘 Agente de Investigación IA (Groq + LangChain)
+
+Agente conversacional capaz de investigar cualquier tema, utilizar herramientas externas y generar respuestas enriquecidas gracias al modelo Llama 3.3 (Groq).
+
+Este proyecto demuestra la integración real de:
+
+🤖 LLMs externos vía API (Groq)
+
+🔧 Herramientas LangChain (Web search, Wikipedia, escritura de archivos)
+
+🧠 Orquestación de prompts
+
+🛠 Tool Calling automático
+
+📝 Generación de archivos .txt
+
+⚠️ Manejo de errores
+
+📦 Uso seguro de variables de entorno (.env)
+
+🚀 Funcionalidades principales
+
+✔ Investiga un tema usando razonamiento + herramientas externas
+✔ Busca información en la web (DuckDuckGo Search)
+✔ Consulta Wikipedia
+✔ Genera un informe redactado
+✔ Guarda el resultado en research_output.txt
+✔ Todo en español
+✔ Zero-shot, no requiere fine-tuning
+
+🧩 Tecnologías utilizadas
+Tecnología	Uso
+Python 3	Lenguaje del proyecto
+LangChain	Orquestación de LLMs y herramientas
+Groq API (Llama 3.3-70B)	Modelo principal
+DuckDuckGo Search	Búsqueda web
+Wikipedia API Wrapper	Consulta de contenidos
+Tools LangChain	Tool calling
+python-dotenv	Carga de variables de entorno
